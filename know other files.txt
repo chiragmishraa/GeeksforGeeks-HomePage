@@ -1,11 +1,11 @@
 If you are thinking that where is the use of php so, here you go!
 
-This files includes PHP codes but it isn't responsive!
+This files are responsible for PHP code files but it isn't responsive!
 
 This were my first project given as assignment to me.
 
 
-CODE FOR HTML HOME
+CODE FOR HTML HOME : index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -188,7 +188,7 @@ CODE FOR HTML HOME
 
 
 
-CODE FOR CSS HOME 
+CODE FOR CSS HOME : style.css
 
 * {
 	padding: 0;
