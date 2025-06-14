@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeeksforGeeks Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">GeeksforGeeks</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Welcome to GeeksforGeeks</h1>
+        <p>Learn. Code. Grow.</p>
+        <a href="https://www.geeksforgeeks.org/" target="_blank" class="btn">Explore More</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses-section">
+    <h2>Popular Courses</h2>
+    <div class="course-grid">
+  <div class="course-card">
+    <h3>DSA</h3>
+    <p>Master problem-solving and efficient coding techniques.</p>
+    <a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/" target="_blank">Start DSA</a>
+  </div>
+  <div class="course-card">
+    <h3>HTML</h3>
+    <p>Build the foundation of web development with HTML.</p>
+    <a href="https://www.geeksforgeeks.org/html-tutorial/" target="_blank">Start HTML</a>
+  </div>
+  <div class="course-card">
+    <h3>JavaScript</h3>
+    <p>Make your websites interactive and dynamic with JS.</p>
+    <a href="https://www.geeksforgeeks.org/javascript/" target="_blank">Start JavaScript</a>
+  </div>
+</div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar Pradesh - 201305</p>
+    <p>We welcome every geek to learn, share, and grow with us!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Created with ❤️ by <a href="https://www.instagram.com/chiragmishra.cm" target="_blank">Chirag</a></p>
+  </footer>
+</body>
+
+</html>

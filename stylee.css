@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(9, 165, 131, 0.658);
+}
+  
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+/* Responsive code */
+
+    @media (max-width: 768px) {
+    nav ul { flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .cyberpunk-header, header { flex-direction: column; text-align: center; padding: 15px; }
+    .cyberpunk-main, main { padding: 30px 10px; }
+    .hero h1, .projects-section h1, .glitch { font-size: 2rem; }
+    .subtitle { font-size: 1rem; }
+    .terminal { width: 90%; }
+    .projects-grid { gap: 15px; }
+    .project-image { height: 150px; }
+    .contact-container { flex-direction: column; gap: 20px; padding: 10px; }
+    .contact-info, .contact-form { width: 100%; }
+    }
+
+    @media (max-width: 480px) {
+    .logo { font-size: 1.5rem; }
+    }
+  
